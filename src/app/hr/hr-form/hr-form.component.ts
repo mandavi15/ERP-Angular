@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './hr-form.component.html',
   styleUrls: ['./hr-form.component.css']
 })
-export class HRFormComponent implements OnInit {
+export class HrFormComponent implements OnInit {
 
   constructor() { }
 
