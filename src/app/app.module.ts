@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes} from '@angular/router';
 import { AppComponent } from './app.component';
 import { HRFormComponent } from './components/hr-form/hr-form.component';
+import { HeaderComponent } from './header/header.component';
 
 const routes: Routes = [
   { path:'', component: HRFormComponent}
@@ -13,7 +14,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HRFormComponent
+    HRFormComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
