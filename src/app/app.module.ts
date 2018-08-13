@@ -11,7 +11,9 @@ import { HrFormComponent } from './hr/hr-form/hr-form.component';
 import { HrGridComponent } from './hr/hr-grid/hr-grid.component';
 
 const routes: Routes = [
-  { path:'', component: HrFormComponent}
+  { path:'', component: HrFormComponent},
+  { path: 'Hr Grid', component: HrGridComponent },
+  { path: 'sidebar', component: SideNavComponent },
 
 ];
 
