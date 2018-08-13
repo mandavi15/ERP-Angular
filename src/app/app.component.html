@@ -2,55 +2,14 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-2 col-md-2 templateBg navHeight p-0">
-      <div class="smLogo"><img src="images/sm-logo.png" alt=""/></div>
-        <nav class="navbar p-0">
-        <ul class="navbar-nav">
-            <li class="nav-item"> <a class="nav-link" href="#"><img src="images/arrow-list.png" alt="arrow" class="arrow"/>Home</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#"><img src="images/arrow-list.png" alt="arrow" class="arrow"/>Purchase</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#"><img src="images/arrow-list.png" alt="arrow" class="arrow"/>Sale</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="ledger-calenders.html"><img src="images/arrow-list.png" alt="arrow" class="arrow"/>General Ledger</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#"><img src="images/arrow-list.png" alt="arrow" class="arrow"/>Inventory</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#"><img src="images/arrow-list.png" alt="arrow" class="arrow"/>Production</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="payroll-areapage.html"><img src="images/arrow-list.png" alt="arrow" class="arrow"/>Payroll</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="HR-form.html"><img src="images/arrow-list.png" alt="arrow" class="arrow"/>Human Resources</a> </li>
-          </ul>
-        </nav>
+      <div class="smLogo">
+       <!-- <img src="images/sm-logo.png" alt=""/> -->
+       <img src="{{'../assets/images/sm-logo.png'}}">
+      </div>
+       <app-side-nav></app-side-nav>
       </div>
       <div class="col-10 col-md-10 p-0"> 
-      	<div class="topNav clearfix">
-        	<!-- <div class="show pull-left">
-            <div id="notification">
-              <span class="p1 fa-stack fa-2x has-badge" data-count="4">
-                
-                <i class="p3 fa fa-bell fa-stack-1x xfa-inverse" data-count="4b"></i>
-              </span>
-            </div>
-            </div>-->
-          <div class="show pull-right">
-          <div id="notification" class="pr-2">
-              <span class="p1 fa-stack fa-1x has-badge" data-count="4">
-                <!--<i class="p2 fa fa-circle fa-stack-2x"></i>-->
-                <i class="p3 fa fa-bell fa-stack-1x xfa-inverse" data-count="4b"></i>
-              </span>
-            </div>
-            <form>
-                <div class="form-group">
-                   <div class="drop-down">    
-                       <select name="options">     
-                       <option class="en" value="en" 
-                       style="background-image:url('images/flag-ind.png'); background-repeat: no-repeat"></option>        
-                       <option class="us" value="us"
-                       style="background-image:url('images/flag-us.png'); background-repeat: no-repeat"></option>    
-                       <option class="uk" value="uk"
-                       style="background-image:url('images/flag-uk.png'); background-repeat: no-repeat"></option>    
-                       </select>     
-                   </div> 
-                </div>
-                
-              </form>
-              <div class="profileCon"><img src="images/profile-img.png" alt="profile"/></div>
-            </div>
-        </div>
+      <app-header></app-header>
         <div class="container-fluid gridBody">
         
         	<h5>HR AREA PAGE</h5>
@@ -119,16 +78,7 @@
     
         </div>
       </div>
-      <footer>
-      	<div class="pull-left">
-        	<p>Enterprise Resource Planning Application ©2018</p>
-        </div>
-        <div class="pull-right" style="float:right">
-   	    	<img src="images/AMY-logo.png" alt="AMY Softech"/>
-            <img src="images/iace-logo.png" alt="IACE"/>
-            <img src="images/Yoeki-logo.png" alt="Yoeki"/>
-        </div>
-      </footer>
+   <app-footer></app-footer>
     </div>
   </div>
 </div>
