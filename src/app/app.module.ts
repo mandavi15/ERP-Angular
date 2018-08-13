@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { HrFormComponent } from './hr/hr-form/hr-form.component';
+import { HrGridComponent } from './hr/hr-grid/hr-grid.component';
 
 const routes: Routes = [
   { path:'', component: HrFormComponent}
@@ -20,7 +21,8 @@ const routes: Routes = [
     HeaderComponent,
     FooterComponent,
     SideNavComponent,
-    HrFormComponent
+    HrFormComponent,
+    HrGridComponent
   ],
   imports: [
     BrowserModule
