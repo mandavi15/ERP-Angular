@@ -10,10 +10,10 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { HrFormComponent } from './hr/hr-form/hr-form.component';
 import { HrGridComponent } from './hr/hr-grid/hr-grid.component';
 
-const routes: Routes = [
-  { path:'', component: HrFormComponent},
-  { path: 'Hr Grid', component: HrGridComponent },
+const appRoutes: Routes = [
+  { path: 'hr-form', component: HrFormComponent },
   { path: 'sidebar', component: SideNavComponent },
+
 
 ];
 
@@ -27,7 +27,8 @@ const routes: Routes = [
     HrGridComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]

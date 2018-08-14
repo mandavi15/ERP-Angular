@@ -97,7 +97,7 @@ select option:disabled{ color:#969696 !important}
 .innerBody select.form-control {
    background: transparent;
    border: none;}
-.local{ -webkit-appearance:none; apperance:none; -moz-appearance:none}
+.local{ -webkit-appearance:none; appearance:none; -moz-appearance:none}
 /*.arrow{position:absolute; right: 1%; top: 53%;}*/
 .styled-select {
    background:url(../images/down-arrow.png) no-repeat 96% 0;
