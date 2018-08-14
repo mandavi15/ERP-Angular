@@ -22,10 +22,11 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/assets/css/style.css",
+            "styles": [              
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/bootstrap-grid.min.css",
+              "src/assets/css/style.css",
+              "src/assets/css/ledger.css",
               "src/styles.css"
             ],
             "scripts": [

@@ -1,0 +1,36 @@
+#form2 h6{padding:0px;}
+#coa-custom table caption{caption-side: top;
+    background: #398c94;
+    color: #fff;
+    font-weight: 600;
+    padding: 6px;}
+	#coa-custom .form-control{width:100%;    padding: .125rem .75rem;border-radius: unset;}
+	#coa-custom select.form-control:not([size]):not([multiple]) {    height: auto;}
+	#coa-custom input[type=checkbox]{vertical-align: bottom;}
+	#coa-custom .show{    padding: 10px 0 0 10px;}
+	.pheading{color: #398c94; font-size: 13px !important; font-weight: 600; padding: 5px;}
+	.pvalue{color: #333; font-size: 13px !important; font-weight: 600; padding: 5px;}
+	#exchange-rate tr td:last-child { text-align: right;}
+#companyPopup .modal-header{padding:5px !important;}
+#companyPopup .modal-title{padding-bottom: 0px !important;color: #fff;}
+#companyPopup .modal-footer{border-top: 1px solid #386e73 !important;    padding: 1rem !important;}
+#companyPopup label{text-align:left;}
+#companyPopup .addrCon, #companyPopup select.addrCon {    width: 49.3% !important;}
+#companyPopup .modal-footer{    display: inline-block;}
+#companyPopup button{    color: #fff;color: #fff; border-radius: .25rem;padding: .25rem 1.5rem; font-size: 0.6875rem;}
+select.localedit,select.nature{    width: 100% !important;    height: 25px !important;    padding: 2px 10px !important;}
+.edtip{padding: 25px 0 0 10% !important;}
+.code-title{font-weight: 500;    color: #439198;}
+.range input[type=text]{width: 60px !important;}
+.code-range{    border-radius: unset;}
+#default-currency .form-control{width:100%;    padding: .125rem .75rem;border-radius: unset;    background: #ffffff;}
+	#default-currency select.form-control:not([size]):not([multiple]) {    height: auto;}
+	#default-currency input[type=checkbox]{vertical-align: bottom;}
+	.form-labels{font-size: 11px;    font-weight: 600;}	
+	#journals-books h6{color:#398c94;}	
+.pbvalue {    padding-top: 5px;    font-weight: 500;}
+.voucher-type  select.form-control:not([size]):not([multiple]){height:25px !important;border-color: #b6ced8;}	
+#voucher-table table tr td:nth-child(5) input,#voucher-table table tr td:nth-child(6) input,#voucher-table table tr td:nth-child(7) input{   text-align: right;}
+#voucher-table table tr th:nth-child(5) ,#voucher-table table tr th:nth-child(6) ,#voucher-table table tr th:nth-child(7) {
+   text-align: right;    width: 10%;	}
+   #voucher-table table tr td:nth-child(3), #voucher-table table tr th:nth-child(3){width: 25%;}
