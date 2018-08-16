@@ -1,0 +1,214 @@
+<div class="container-fluid gridBody">
+  <div class="buttonCon pull-right">
+      <button type="submit" class="btn templateBg" onclick="javascript: document.location.href='HR-form.html'"><img src="images/back-icon.png" alt="back">Back</button>
+      <button type="submit" class="btn templateBg"><img src="images/home-icon.png" alt="home">Home</button>
+  </div>
+    <h5>ORGANIZATION</h5>
+      <div class="row">
+      <div class="col-7 col-md-7">
+          <div class="buttonCon pull-left">
+              <button type="submit" class="btn templateBg" data-toggle="modal" data-target="#addNew"><img src="images/new-icon.png" alt="new">Add New</button>
+          </div>
+      </div>
+      
+      <div class="col-5 col-md-5 pull-right">
+      <div class="show pull-left col-6 col-md-6 pl-5">
+      <p>Show</p>
+       <form>
+          <div class="form-group">
+            <div class="styled-select slate">
+              <select class="form-control" id="country" name="country">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+              </select>
+            </div>
+          </div>
+          
+        </form>
+        <p>Entries</p>
+      </div>
+      <div class="input-group mb-2 col-6 col-md-6 pull-right pl-0">
+          <input class="form-control border-secondary" type="search" placeholder="search">
+          <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">
+              <img src="images/search-icon.png" alt="search"> </button>
+          </div>
+      </div>
+      </div>
+          
+          </div>
+       <table class="table greyBorder mb-4">
+<thead>
+<tr class="lightGreen">
+  <th>HEADING 1</th>
+  <th>HEADING 2</th>
+  <th>HEADING 3</th>
+  <th>HEADING 4</th>
+  <th>HEADING 5</th>
+  <th>HEADING 6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>      
+<tr class="lightGrey">
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>
+<tr>
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>      
+<tr class="lightGrey">
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>
+<tr>
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>      
+<tr class="lightGrey">
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>
+<tr>
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>      
+<tr class="lightGrey">
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>
+<tr>
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>      
+<tr class="lightGrey">
+  <td>Content 1</td>
+  <td>Content 2</td>
+  <td>Content 3</td>
+  <td>Content 4</td>
+  <td>Content 5</td>
+  <td>Content 6</td>
+</tr>
+
+</tbody>
+</table>
+
+<div class="buttonCon pull-left">
+    <button type="submit" class="btn templateBg"><img src="images/edit-icon.png" alt="edit">Edit</button>
+      <button type="submit" class="btn templateBg" data-toggle="modal" data-target="#successPopup"><img src="images/save-icon.png" alt="save">Save</button>
+      <button type="submit" class="btn templateBg" data-toggle="modal" data-target="#deletePopup"><img src="images/delete-icon.png" alt="delete">Delete</button>
+      <button type="submit" class="btn templateBg"><img src="images/download-icon.png" alt="download">Download</button>
+  </div>
+  </div>
+
+  <div class="modal fade" id="addNew" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" id="addpopUp">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+        	<h5>Organization</h5>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <form name="myForm" onsubmit="return checkFormValidation();" class="hr-form">
+				      <div class="form-inline mb-2">
+                    
+                      <label for="name" class="col-4 col-md-4">Name:</label>
+                      <input type="text" class="form-control col-8 col-md-8" id="name" name="username" placeholder="Name">
+                      
+                    </div>
+                    <div class="form-inline mb-2">
+                      <label for="email" class="col-4 col-md-4">Description:</label>
+                      <input type="text" class="form-control col-8 col-md-8" id="description" name="description" placeholder="Description">
+                    </div>
+                   
+                    <div class="form-inline mb-2">
+                      <label for="email" class="col-4 col-md-4">Region:</label>
+                      <input type="text" class="form-control col-8 col-md-8" id="region" name="region" placeholder="Region">
+                    </div>
+                                  
+               </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-submit" data-dismiss="modal">SUBMIT</button>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready( function() {
+
+           $("#close").click(function () {
+
+               $("#savePopup").dialog('close');
+           });
+           $("#no").click(function () {
+
+               $("#deletePopup").dialog('close');
+           });
+          
+           $("#close1").click(function () {
+
+              $("#savePopup").dialog('close');
+           });
+           $("#addNew").click(function() {
+               $(".hide").toggleClass('show');
+           });
+       })
+
+     
+</script>

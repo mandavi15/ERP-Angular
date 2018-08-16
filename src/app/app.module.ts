@@ -17,6 +17,7 @@ import { InventoryComponent } from './inventory/inventory.component';
 import { ProductionComponent } from './production/production.component';
 import { FixedAssetsComponent } from './fixed-assets/fixed-assets.component';
 import { PayrollComponent } from './payroll/payroll.component';
+import { OrganizationComponent } from './hr/organization/organization.component';
 
 const appRoutes: Routes = [
   { path: 'purchase', component: PurchaseComponent },
@@ -28,8 +29,7 @@ const appRoutes: Routes = [
   { path: 'pay-roll', component: PayrollComponent },
   { path: 'hr-form', component: HrFormComponent },
   { path: '', component: HomeComponent },
-
-
+  
 ];
 
 @NgModule({
@@ -47,7 +47,8 @@ const appRoutes: Routes = [
     InventoryComponent,
     ProductionComponent,
     FixedAssetsComponent,
-    PayrollComponent
+    PayrollComponent,
+    OrganizationComponent
   ],
   imports: [
     BrowserModule,
