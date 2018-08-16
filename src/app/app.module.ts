@@ -20,6 +20,7 @@ import { PayrollComponent } from './payroll/payroll.component';
 import { OrganizationComponent } from './hr/organization/organization.component';
 
 const appRoutes: Routes = [
+  { path: 'home', component: HomeComponent },
   { path: 'purchase', component: PurchaseComponent },
   { path: 'sale', component: SaleComponent },
   { path: 'general-ledger', component: GeneralLedgerComponent },
